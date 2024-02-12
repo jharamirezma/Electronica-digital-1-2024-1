@@ -29,6 +29,7 @@ Se realizaran 5 talleres de laboratorio enfocados hacia el desarrollo de un proy
 + Mint
 
 **Github**
+
 Es necesaria la creación de una cuenta en Github, para lo cual pueden seguir las siguientes [indicaciones](https://www.youtube.com/watch?v=Gn3w1UvTx0A)
 
 
