@@ -18,7 +18,7 @@ Este laboratorio está diseñado para proporcionar los conocimientos y habilidad
 
 ### Metodología
 
-Se realizaran 5 talleres de laboratorio enfocados hacia el desarrollo de un proyecto que permita la creacion de un sistema digital contruido sobre una FPGA.
+Se realizaran 5 talleres de laboratorio enfocados hacia el desarrollo de un proyecto que permita la creacion de un sistema digital construido sobre una FPGA.
 
 ### Herramientas
 
