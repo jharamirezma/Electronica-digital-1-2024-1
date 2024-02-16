@@ -25,19 +25,26 @@ Se realizaran 5 talleres de laboratorio enfocados hacia el desarrollo de un proy
 
 **Distribuciones de Linux**
 
-+ Ubuntu
-+ Mint
+Es necesario realizar el trabajo en este curso sobre una distribución de Linux, en este [enlace](https://www.youtube.com/watch?v=zfAXUcq-frs) encontraran un tutorial de cómo realizar la preparación e instalación de Ubuntu, aunque son libres de elegir una distribución diferente. 
+
+Se recomienda trabajar sobre alguna de las siguientes distribuciones.
+
++ [Mint](https://www.linuxmint.com/download.php)
++ [Ubuntu](https://ubuntu.com/download) 
+
 
 **Github**
 
-Es necesaria la creación de una cuenta en Github, para lo cual pueden seguir las siguientes [indicaciones](https://www.youtube.com/watch?v=Gn3w1UvTx0A)
+Es necesaria la creación de una cuenta en Github, para lo cual pueden seguir las siguientes [indicaciones](https://www.youtube.com/watch?v=Gn3w1UvTx0A).
+
+Posterior a la creación de la cuenta deben instalar Git en sus computadores.
 
 
 **Entornos de desarrollo IDE**
 
 + Vivado (Nexys y Zybo)
 + Quartus (Altera)
-+ yosys (Open)
++ yosys 
 
 
 
@@ -48,6 +55,33 @@ Es necesaria la creación de una cuenta en Github, para lo cual pueden seguir la
 + Vim
 + Sublime Text
 + Eclipse + PyDev
+
+
+**Instalación de Quartus (para Altera)**
+
+En  este [enlace](https://www.intel.la/content/www/xl/es/products/details/fpga/development-tools/quartus-prime/resource.html) encontraran la web de donde se decarga el instalador de Quartus. Seleccionamos la version *"Lite edition"* y dar clic en ir a la descarga. Los opciones de cómo se debe realizar la descarga se muestran en la siguiente imagen:
+
+![Quartus_1](Imagenes/Quartus_Download.png)
+
+El archivo de descarga es el instalador y tiene la extención .run. Para correr el instalador de Quartus se debe:
+
+   1. Abrir la terminal en la capeta donde se encuentra el instalador y cambiar los permisos del archivo corriendo el siguiente comando:
+```
+chmod +x *.run
+```
+Donde * es el nombre del archivo descargado. 
+
+
+  2. Correr el instalador con el siguiente comando, con la terminal abierta en la carpeta del archivo: 
+
+```
+sudo ./*.run
+```
+  3. Se abrira el instalador como se muestra en la siguiente imagen, deben seleccionar todo como se muestra y dan desacargar.
+
+![Quartus_1](Imagenes/Instalador.png)
+
+Cuando la instalación finalice, en el escritorio encontraran un acceso directo del programa. Tambien pueden abrir el programa desde la terminal de Linux realizando los siguientes pasos:
 
 
 
