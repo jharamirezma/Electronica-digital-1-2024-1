@@ -76,7 +76,7 @@ Donde * es el nombre del archivo descargado.
   2. Correr el instalador con el siguiente comando, con la terminal abierta en la carpeta del archivo: 
 
 ```
-sudo ./*.run
+./*.run
 ```
   3. Se abrira el instalador como se muestra en la siguiente imagen, deben seleccionar todo como se muestra y dan desacargar.
 
