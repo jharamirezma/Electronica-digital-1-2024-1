@@ -51,7 +51,22 @@ Este laboratorio tiene como objetivo que los estudiantes puedan familiarizarse c
 2. Asi como en el punto anterior, el estudiante debe comprobar, mediante una simulación, la tabla de verdad del sumador completo de 1 bit.  
 
 
-###Entregables.
+![Medio Sumador](/Imagenes/Cir/Sumador.png)
+
+|   A  |   B  |  Ci |   Co  |   S1  |
+|------|------|-----|-------|-------|
+|   0  |   0  |  0  | **0** | **0** |
+|   0  |   0  |  1  | **0** | **1** |
+|   0  |   1  |  0  | **0** | **1** |
+|   0  |   1  |  1  | **1** | **0** | 
+|   1  |   0  |  0  | **0** | **1** |
+|   1  |   0  |  1  | **1** | **0** |
+|   1  |   1  |  0  | **1** | **0** |
+|   1  |   1  |  1  | **1** | **1** | 
+
+
+
+### Entregables.
 
 Se debe subir al repositorio de cada uno de los grupos una carpeta con el nombre "*lab001*" que contenga:
 
