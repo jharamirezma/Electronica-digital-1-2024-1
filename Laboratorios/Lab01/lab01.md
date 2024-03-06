@@ -70,6 +70,8 @@ Este laboratorio tiene como objetivo que los estudiantes puedan familiarizarse c
 
 Se debe subir al repositorio de cada uno de los grupos una carpeta con el nombre "*lab001*" que contenga:
 
-* Un archivo "*readme_l01.md*" donde se describa el procedimiento realizado para la realización del laboratorio.
+* Un archivo "*readme_l01.md*" donde se describa el procedimiento detallado de la realización del laboratorio.
 * Una carpeta "*Imagenes*" donde se ecnuentren las figuras utilizadas en la documentación del archivo "*readme_l01.md*".
 * Una carpeta "*src*" que contenga los archivos de codigo ".v" o ".vhdl", de las descripción de las compuertas y del sumador, como de sus respectivas simulaciones.
+
+Estos archivos deben ser subidos al repositorio antes del dia <strong>10 de Marzo del 2024</strong>.
