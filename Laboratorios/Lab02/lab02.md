@@ -195,7 +195,7 @@ endmodule
 ```
 
 ```
-`include "sum_1_bit.v"
+`include "sum_2_bit.v"
 
 module sum2b(A, B, Ci, S, Co);
 
