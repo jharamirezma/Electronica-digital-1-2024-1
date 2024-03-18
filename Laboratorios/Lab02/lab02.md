@@ -4,7 +4,7 @@
 
 Este laboratorio tiene como objetivo que los estudiantes puedan familiarizarse con la síntesis de códigos en Verilog sobre la tarjeta de desarrollo *Altera* y la *FPGA* Cyclone IV.
 
-En este laboratorio, los estudiantes deben poder visualizar el funcionamiento del sumador de 1 bit, creado y simulado en el laboratorio 1. Además, deben crear y simular un sumador de 4 bits instanciando al sumador de 1 bit.
+En este laboratorio los estudiantes deben poder visualizar el funcionamiento del sumador de 1 bit, creado y simulado en el laboratorio 1. Además, deben crear y simular un sumador de 4 bits instanciando al sumador de 1 bit.
 
 
 
@@ -152,18 +152,70 @@ udevadm control --reload-rules
 
 ### Sumador de 4 bits.
 
-En la siguiente imagen se presenta el diagrama de flujos del sumador de 1 bit, el cual fue descrito en el laboratorio 1.
+En la siguiente imagen se presenta el diagrama de bloques del sumador de 1 bit, el cual fue descrito en el laboratorio 1.
 
 ![boque sumador 1b](/Imagenes/Lab02/bloq_sum1.png)
 
 
-Para la contrucción del sumador de 4 bits requerimos instanciar 4 veces el modulo de sumador de 1 bit. Para ello se debe crear un modulo *top* con dos entradas A y B tipo vector de 4 bits, una salida Co correspondiente al acarreo de salida y la salida de 4 bits. Esto se hace de la siguiente manera:
-
-![boque sumador 1b](/Imagenes/Lab02/bloq_sum4.png)
+Para la contrucción del sumador de 4 bits requerimos instanciar 4 veces el modulo de sumador de 1 bit. Para ello se debe crear un modulo *top* con dos entradas A y B de 4 bits, una salida Co correspondiente al acarreo de salida y la salida de 4 bits. 
 
 El diagrama de bloques del sumador de 4 bits se presenta a contiuación.
 
 ![boque sumador 1b](/Imagenes/Lab02/bloq_sum4.png)
+
+
+***instanciación en verilog.***
+
+
+En Verilog, la instanciación se refiere al proceso de crear una instancia de un módulo dentro de otro módulo o en el nivel superior del diseño. Esto se hace utilizando el operador de instancia (instancia_name module_name). 
+
+Supongamos que se tiene un módulo llamado sum1b que implementa un sumador de 1 bit de tres entradas y dos salidas, y se quiere instanciar este módulo en otro módulo llamado sum2b, el cual podrá hace sumas de 1 a 3.
+
+```
+module sum1b (
+    input  a,
+    input  b,
+    input  ci,
+    output  s,
+    output co
+);
+
+wire xor1;
+wire and1;
+wire and2;
+
+assign xor1 = a ^ b;
+assign and1 = xor1 & ci;
+assign and2 = a & b;
+assign s = xor1 ^ ci;
+assign co = and1 | and2;
+
+
+endmodule
+```
+
+```
+`include "sum_1_bit.v"
+
+module sum2b(A, B, Ci, S, Co);
+
+
+input [1:0] A;
+input [1:0] B;
+input Ci;
+output [1:0] S;   
+output Co;
+
+wire C1;
+
+
+sum1b sum0(.a(A[0]), .b(B[0]), .ci(1'b0), .s(S[0]), .co(C1));
+sum1b sum1(.a(A[1]), .b(B[1]), .ci(C1), .s(S[1]), .co(Co));
+
+
+endmodule
+
+```
 
 ### Entregables.
 
@@ -172,6 +224,6 @@ Se debe subir al repositorio de cada uno de los grupos una carpeta con el nombre
 * Un archivo "*readme_l02.md*" donde se describa el procedimiento detallado de la realización del laboratorio.
 * Una carpeta "*Imagenes*" donde se ecnuentren las figuras utilizadas en la documentación del archivo "*readme_l02.md*".
 * Una carpeta "*src*" que contenga los archivos de codigo ".v" o ".vhdl", de las descripción del sumador de 1 y 4 bits, como de sus respectivas simulaciones.
-* Links de videos donde se debe mostrar el funcionamiento del sumador de 1 y 4 bits.
+* Links de videos donde se debe mostrar el funcionamiento del sumador de 1 y 4 bits (deben pagregarlo en el archivo "*readme_l02.md*").
 
-Estos archivos deben ser subidos al repositorio antes del dia <strong>17 de Marzo del 2024</strong>.
+Estos archivos deben ser subidos al repositorio antes del dia <strong>24 de Marzo del 2024</strong>.

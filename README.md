@@ -222,3 +222,87 @@ Center (SSLC)](https://www.intel.com/content/www/us/en/secure/forms/fpga-sslc-re
 En la carpeta labDIEE_2024_1 encontrarán varios archivos relacionados al Laboratorio del Departamento de Ingeniería Eléctrica y Electrónica. El archivo FORMATO_Movimiento_transitorio_bienes-LABDIEE-2024-1.xlsm contiene el formato que deben diligenciar para que puedan adelantar el préstamo de equipos en casa. Por grupo de trabajo deben llevar al almacén el formato diligenciado, una copia del mismo y la fotocopia del carnet del integrante que vaya a figurar como el responsable de los equipos, quien será el encargado de recibirlos. Revisen todos los archivos de la carpeta, ya que encontrarán los horarios del almacén, el listado de equipos según la asignatura y las fechas de recepción de formatos y entrega de equipos, así como información relevante del laboratorio.
 
  
+## Notas*
+
+
+
+**GRUPO 1 (Miercoles 9 - 11)**
+
+<table>
+	<tbody>
+		<tr>
+			<td colspan="2" rowspan="2"> <strong> GRUPO 1 </strong></td>
+			<td colspan="4"> <center> <strong> NOTAS </strong></center> </td>
+		</tr>
+		<tr>
+			<td><strong>LAB00</strong></td>
+			<td><strong>LAB01</strong></td>
+			<td><strong>LAB02</strong></td>
+			<td><strong>LAB03</strong></td>
+		</tr>
+		<tr>
+			<td colspan="2">Equipo 1</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td colspan="2">Equipo 2</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+	</tbody>
+</table>
+
+
+
+**GRUPO 2 (Lunes 9 - 11)**
+
+<table>
+	<tbody>
+		<tr>
+			<td colspan="2" rowspan="2"> <strong>GRUPO 2 </strong>
+</td>
+			<td colspan="4"> <center> <strong> NOTAS </strong> </center> </td>
+		</tr>
+		<tr>
+			<td><strong>LAB00</strong></td>
+			<td><strong>LAB01</strong></td>
+			<td><strong>LAB02</strong></td>
+			<td><strong>LAB03</strong></td>
+		</tr>
+		<tr>
+			<td colspan="2">Equipo 1</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td colspan="2">Equipo 2</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td colspan="2">Equipo 3</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td colspan="2">Equipo 4</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+	</tbody>
+</table>
+
+<strong>*</strong>Las notas consignadas en la tabla son del trabajo general de cada grupo, pero la nota individual queda sujeta a participación en el repositorio de cada integrante.
