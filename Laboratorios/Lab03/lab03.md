@@ -71,6 +71,11 @@ En el modulo *BCDtoSSeg* se tiene la entrada **BCD** que define un puerto de ent
 
 ![an1010](imagenes/an1010.png)
 
+Para realizar la conexión de los 7-segmentos en la FPGA, revisar en la carpeta recursos del repositorio el archivo *Pin_planner* ó guiarse del siguiente recuadro que encontran en la FPGA:
+
+
+![an1010](imagenes/7-seg_fpga.jpeg)
+
 
 ------------
 
