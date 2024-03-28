@@ -52,9 +52,31 @@ end
 endmodule
 
 ```
+
+En el modulo *BCDtoSSeg* se tiene la entrada **BCD** que define un puerto de entrada que representa un número en formato Binary-Coded Decimal de 4 bits.
+
+**SSeg** es el puerto de salida que representa los segmentos de un display de siete segmentos. Se utiliza un registro (reg) para almacenar los valores de los segmentos.
+
+**an** es un puerto de salida que controla los ánodos comunes de un display de siete segmentos, es decir permite encender cada uno de los 7-segmentos de la primera hilera de displays mediante un cero logico, por ejemplo:
+
+**an = 1110:** Enciende el ultimo 7-segmentos de la primera hilera de la fpga.
+
+![an1110](imagenes/an1110.png)
+
+**an = 1100:** Enciende los 2 ultimos 7-segmentos de la primera hilera de la fpga.
+
+![an1110](imagenes/an1100.png)
+
+**an = 1010:** Enciende el segundo y el ultimo 7-segmentos de la primera hilera de la fpga.
+
+![an1010](imagenes/an1010.png)
+
+
+------------
+
 **Primera Parte**
 
-Cada grupo debe lograr visulizar, en un display de 7 segmentos, los numeros del 0 a F, formato hexadecimal, ingresando por medio de los switch cada uno de los números, asi mismo modificar el codigo para poder visualizar solo los números del 0 al 9. Tambien deben poder visualizar en el siulador, el correcto funcinamiento del código.
+Cada grupo debe lograr visulizar, en un display de 7 segmentos, los numeros del 0 a F, formato hexadecimal, ingresando por medio de los switch cada uno de los números, asi mismo modificar el codigo para poder visualizar solo los números del 0 al 9. Tambien deben poder visualizar en el simulador, el correcto funcinamiento del código.
 
 **Segunda Parte**
 
