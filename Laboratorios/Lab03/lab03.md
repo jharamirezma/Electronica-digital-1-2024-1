@@ -2,7 +2,7 @@
 
 ---
 
-El objetivo de este laboratorio es lograr visualizar el resultado de un sumador de 3 bits en los display 7 segmentos que vienen en la arjeta Altera.
+El objetivo de este laboratorio es lograr visualizar el resultado de un sumador de 3 bits en los display 7 segmentos que vienen en la tarjeta Altera.
 
 **Display de 7 Segmentos:**
 
