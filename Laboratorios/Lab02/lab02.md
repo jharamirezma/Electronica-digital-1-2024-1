@@ -1,4 +1,4 @@
-### Lab 02: Implemetación de sumador de 1 bit y de 4 bit en FPGA.
+### Lab 02: Implementación de sumador de 1 bit y de 4 bit en FPGA.
 
 ---
 
@@ -44,7 +44,7 @@ Con el comando anterior se creó un arhivo ```.rules``` vacío.
 
 * Ahora se deben agregar las siguientes líneas dentro de ese archivo, para lo cual se puede hacer de dos formas:
 
-  - Abrir en el directorio ```rules.d``` el editor de texto de preferencia, por ejemplo para VSC el comando ```code .``` abrirá el editor en dicha ubicación, en donde verá en la barra EXPLORER el archivo ```.rules``` creado junto a otros archivos y podrá editarlo agregando las siguientes líneas, pero, cuando lo intente guardar, VSC le solictará permiso para hacerlo como super usuario (sudo).
+  - Abrir en el directorio ```rules.d``` el editor de texto de preferencia, por ejemplo para VSC el comando ```code .``` abrirá el editor en dicha ubicación, en donde verá en la barra EXPLORER el archivo ```.rules``` creado junto a otros archivos y podrá editarlo agregando las siguientes líneas, pero, cuando lo intente guardar, VSC le solicitará permiso para hacerlo como super usuario (sudo).
 
   - Con el comando ```sudo nano 51-usbblaster.rules``` abrirá el archivo creado anteriormente en la terminal y podrá agregar las siguientes lineas.
 
@@ -71,7 +71,7 @@ SUBSYSTEM=="usb", ATTR{idVendor}=="09fb", ATTR{idProduct}=="6810", MODE="0666"
 udevadm control --reload-rules
 ```
 
-* Poterior a esto se debe hacer un *reboot* del computator.
+* Posterior a esto se debe hacer un *reboot* del computador.
 
 
 ### **2. Windows**:
@@ -119,7 +119,7 @@ udevadm control --reload-rules
 
 * Luego, en la sección ```Task``` se debe hacer click a la opción **Compile Design**.
 
-* Posteriormente, en la barra **Standard** (que está debajo de la barra de menús), deben seleccionar el icono de **Pin Planer** que abrirá dicha ventana, donde se encontrará el pinout de la FPGA, como se muestra en las siguiente imagenes:
+* Posteriormente, en la barra **Standard** (que está debajo de la barra de menús), deben seleccionar el icono de **Pin Planer** que abrirá dicha ventana, donde se encontrará el pinout de la FPGA, como se muestra en las siguiente imágenes:
 
 ![pin_planer](/Imagenes/Lab02/pin_planner.png)
 
@@ -157,9 +157,9 @@ En la siguiente imagen se presenta el diagrama de bloques del sumador de 1 bit, 
 ![boque sumador 1b](/Imagenes/Lab02/bloq_sum1.png)
 
 
-Para la contrucción del sumador de 4 bits requerimos instanciar 4 veces el modulo de sumador de 1 bit. Para ello se debe crear un modulo *top* con dos entradas A y B de 4 bits, una salida Co correspondiente al acarreo de salida y la salida de 4 bits. 
+Para la construcción del sumador de 4 bits requerimos instanciar 4 veces el modulo de sumador de 1 bit. Para ello se debe crear un modulo *top* con dos entradas A y B de 4 bits, una salida Co correspondiente al acarreo de salida y la salida de 4 bits. 
 
-El diagrama de bloques del sumador de 4 bits se presenta a contiuación.
+El diagrama de bloques del sumador de 4 bits se presenta a continuación.
 
 ![boque sumador 1b](/Imagenes/Lab02/bloq_sum4.png)
 
@@ -222,8 +222,8 @@ endmodule
 Se debe subir al repositorio de cada uno de los grupos una carpeta con el nombre "*lab002*" que contenga:
 
 * Un archivo "*readme_l02.md*" donde se describa el procedimiento detallado de la realización del laboratorio.
-* Una carpeta "*Imagenes*" donde se ecnuentren las figuras utilizadas en la documentación del archivo "*readme_l02.md*".
-* Una carpeta "*src*" que contenga los archivos de codigo ".v" o ".vhdl", de las descripción del sumador de 1 y 4 bits, como de sus respectivas simulaciones.
-* Links de videos donde se debe mostrar el funcionamiento del sumador de 1 y 4 bits (deben pagregarlo en el archivo "*readme_l02.md*").
+* Una carpeta "*Imagenes*" donde se encuentren las figuras utilizadas en la documentación del archivo "*readme_l02.md*".
+* Una carpeta "*src*" que contenga los archivos de código ".v" o ".vhdl", de las descripción del sumador de 1 y 4 bits, como de sus respectivas simulaciones.
+* Links de videos donde se debe mostrar el funcionamiento del sumador de 1 y 4 bits (deben agregarlo en el archivo "*readme_l02.md*").
 
 Estos archivos deben ser subidos al repositorio antes del dia <strong>24 de Marzo del 2024</strong>.

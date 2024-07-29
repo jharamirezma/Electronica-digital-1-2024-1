@@ -232,13 +232,14 @@ En la carpeta labDIEE_2024_1 encontrarán varios archivos relacionados al Labora
 	<tbody>
 		<tr>
 			<td colspan="2" rowspan="2"> <strong> GRUPO 1 </strong></td>
-			<td colspan="4"> <center> <strong> NOTAS </strong></center> </td>
+			<td colspan="5"> <center> <strong> NOTAS </strong></center> </td>
 		</tr>
 		<tr>
 			<td><strong>LAB00</strong></td>
 			<td><strong>LAB01</strong></td>
 			<td><strong>LAB02</strong></td>
 			<td><strong>LAB03</strong></td>
+			<td><strong>LAB04</strong></td>
 		</tr>
 		<tr>
 			<td colspan="2">Equipo 1</td>
@@ -246,9 +247,11 @@ En la carpeta labDIEE_2024_1 encontrarán varios archivos relacionados al Labora
 			<td></td>
 			<td></td>
 			<td></td>
+			<td></td>
 		</tr>
 		<tr>
 			<td colspan="2">Equipo 2</td>
+			<td></td>
 			<td></td>
 			<td></td>
 			<td></td>
@@ -266,16 +269,18 @@ En la carpeta labDIEE_2024_1 encontrarán varios archivos relacionados al Labora
 		<tr>
 			<td colspan="2" rowspan="2"> <strong>GRUPO 2 </strong>
 </td>
-			<td colspan="4"> <center> <strong> NOTAS </strong> </center> </td>
+			<td colspan="5"> <center> <strong> NOTAS </strong> </center> </td>
 		</tr>
 		<tr>
 			<td><strong>LAB00</strong></td>
 			<td><strong>LAB01</strong></td>
 			<td><strong>LAB02</strong></td>
 			<td><strong>LAB03</strong></td>
+			<td><strong>LAB04</strong></td>
 		</tr>
 		<tr>
 			<td colspan="2">Equipo 1</td>
+			<td></td>
 			<td></td>
 			<td></td>
 			<td></td>
@@ -287,6 +292,7 @@ En la carpeta labDIEE_2024_1 encontrarán varios archivos relacionados al Labora
 			<td></td>
 			<td></td>
 			<td></td>
+			<td></td>
 		</tr>
 		<tr>
 			<td colspan="2">Equipo 3</td>
@@ -294,9 +300,11 @@ En la carpeta labDIEE_2024_1 encontrarán varios archivos relacionados al Labora
 			<td></td>
 			<td></td>
 			<td></td>
+			<td></td>
 		</tr>
 		<tr>
 			<td colspan="2">Equipo 4</td>
+			<td></td>
 			<td></td>
 			<td></td>
 			<td></td>
