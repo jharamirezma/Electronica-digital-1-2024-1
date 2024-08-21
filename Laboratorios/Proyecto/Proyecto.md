@@ -256,5 +256,12 @@ El proyecto debe incluir testbenches para verificar el correcto funcionamiento d
 
 ### Entregables
 
+Se debe realizar una muestra de funcionamiento del proyecto en el horario de clase. Se deben subir al repositorio los siguientes requerimientos:
 
-Se debe crear testbenches para verificar el correcto funcionamiento de cada módulo individual. Realizar simulaciones del sistema completo para validar la interacción entre los componentes y la respuesta del sistema a diferentes distancias.
++ Códigos de Verilog de todos los módulos del sistema.
++ Testbenches y resultados de simulaciones.
++ Descripción en un archivo .md de la elaboración del proyecto, simulaciones y resultados obtenidos. 
+  
+Fecha limite para presentación de funcionamiento de los proyectos:
+    - Grupo 2: Lunes 26 de Septiembre.
+    - Grupo 1: Miércoles 28 de Septiembre.
