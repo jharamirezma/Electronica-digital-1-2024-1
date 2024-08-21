@@ -50,7 +50,8 @@ Se debe subir al repositorio de cada uno de los grupos una carpeta con el nombre
 
 * Un archivo "*readme_l04.md*" donde se describa el procedimiento detallado de la realización del laboratorio.
 * Una carpeta "*Imagenes*" donde se encuentren las figuras utilizadas en la documentación del archivo "*readme_l03.md*".
-* Una carpeta "*src*" que contenga los archivos de código ".v" o ".vhdl", de las descripción del display 7 segmentos y el sumador de 3 bits.
+* Una carpeta "*src*" que contenga los archivos de código ".v" o ".vhdl" de la practica. 
+ 
 * Links de videos donde se debe mostrar el funcionamiento del 7 segmentos y del sumador de 3 bits (deben agregarlo en el archivo "*readme_l03.md*").
 
 Estos archivos deben ser subidos al repositorio antes del dia <strong>11 de Agosto del 2024</strong>.
